@@ -6,7 +6,7 @@ print("Hello World")
 cadena  =  "SISTEMASPROGRAMABLES"
 #Entero
 c = 3
-#Listas 
+#Listas
 
 youhavesleep = True
 drinkcoffee=True
@@ -14,7 +14,7 @@ drinkcoffee=True
 
 if (youhavesleep ==drinkcoffee):
     print("coffee")
- 
+
 else:
     print(":P")
 #un if en este caso los : sirven como parentesis de java
@@ -22,14 +22,14 @@ else:
 print (cadena)
 #imprimimos el valo de la variable cadena
 def saludar(nombre):
-    print("Hola "+nombre)
-#creamos nuestra primera funcion 
+    return"Hola "+nombre
+#creamos nuestra primera funcion
 
 lista = [22, True, "Hola mundo", [1,2]]
-#creamos una lista 
+#creamos una lista
 # una lista se puede partir con [posicion 1 : posiscion 2]
 
-#Tuplas similares a las listas 
+#Tuplas similares a las listas
 t = ( 10, "Hola", True, 1 )
 
 #Diccionarios
@@ -38,13 +38,13 @@ d = {
     "Batman inicia":"Nolan",
     "Kill bill" :"Tarantino"
 }
-#un ciclo while 
+#un ciclo while
 while True:
-    entrada = raw_input("Agrega una palabra")
+    entrada = input("Agrega una palabra: ")
     if entrada == "adios":
         break
     else:
-        print entrada
+        print(str(entrada))
 
 promedio = 5
 
@@ -52,10 +52,10 @@ if promedio >= 7:
     print ("Aprobado")
 elif promedio == 0:
     print("Eres muy tonto")
-else: 
+else:
     print("Reprobado")
 
-#elif igaul a un else if 
+#elif igaul a un else if
 edad = 0
 
 while edad < 20:
@@ -65,9 +65,9 @@ while edad < 20:
 numero=[2,3,4, "cadena"]
 
 for elemento in numero:
-    print elemento
+    print(elemento)
 
-#ciclo for 
+#ciclo for
 def saludo(nombre, anios, hijo=0, *sabes):
     """ Primera funcion en python """
     print("Hola " +nombre+" tienes "+str(anios)+" y tienes "+str(hijo)+" hijos"+ " y sabes"+str(sabes))
@@ -77,9 +77,9 @@ def saludo(nombre, anios, hijo=0, *sabes):
 saludo("Juan", 23, 1, "Riak","Node","React")
 print (t[1])
 print (type(cadena))
-print lista[0:2]
-print type(c)
+print(lista[0:2])
+print(type(c))
 print (d['Kill bill'])
 
-saludar("juan")
+print(saludar("juan"))
 #ejecutamos la funcion
