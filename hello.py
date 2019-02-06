@@ -75,11 +75,11 @@ def saludo(nombre, anios, hijo=0, *sabes):
 #Se debe de usar al imprimir numeros en una cadena
 
 saludo("Juan", 23, 1, "Riak","Node","React")
-print (t[1])
-print (type(cadena))
+print(t[1])
+print(type(cadena))
 print(lista[0:2])
 print(type(c))
-print (d['Kill bill'])
+print(d['Kill bill'])
 
 print(saludar("juan"))
 #ejecutamos la funcion

@@ -18,38 +18,41 @@ class Coche():
 
     def arrancar(self,arrancamos):
         self.__marcha=arrancamos
+
         if(self.__marcha):
+            chequeo=self.__chequeoInterno()
+        if(self.__marcha and chequeo):
+            self.__marcha=True
             return "El coche esta en marcha"
-        else:
+        elif(self.__marcha and chequeo==False):
             return "El coche esta detenido"
 
-        self.__marcha=True
+
+
 
     def estado(self):
         return ("El coche tiene", self.__ruedas, "ruedas. Un ancho de ", self.__ancho, "y un largo de ", self.__largo)
 
 
-    def chequeoInterno(self):
+    def __chequeoInterno(self):
+
         print("Realizando un chequeo interno del coche")
+
         self.gasolina="ok"
         self.aceite="ok"
         self.puertas="carradas"
 
-        if(self.aceite=="ok"):
-            if( self.gasolina=="ok"):
-                return "Listo para arrancar"
+        if(self.gasolina=="ok" and self.gasolina=="ok" and self.puertas=="carradas"):
+            return True
         else:
-            return "Algo esta fallando"
+            return False
 
 
 micoche = Coche()
 micoche.__ruedas=5
 print("El coche tiene ", micoche.__ruedas, " ruedas")
+print(micoche.arrancar(True))
 print(micoche.estado())
-micoche.gasolina="otro"
-micoche.aceite="otro mas"
-print(micoche.chequeoInterno())
-
 print("Creamos el segundo objeto de nuestro programa")
 micoche2=Coche()
 micoche2.arrancar(False)
