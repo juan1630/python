@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f3aa6ee-6fce-4044-9225-5d0a0646d941" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Calculo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculo/basicos/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculo/basicos/basics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculo/calculos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculo/redondeo_pot/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/funciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/useFunction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string/Pstring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use_modulos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archivo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/paqueteCalculos-1.0.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paqueteCalculos.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paqueteCalculos.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paqueteCalculos.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paqueteCalculos.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serializacion/coche" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serializacion/lista_nombres" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Metodos/metohod.py" beforeDir="false" afterPath="$PROJECT_DIR$/Metodos/metohod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algebra/imaginario.py" beforeDir="false" afterPath="$PROJECT_DIR$/algebra/imaginario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manejo.py" beforeDir="false" afterPath="$PROJECT_DIR$/manejo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serializacion/rescate.py" beforeDir="false" afterPath="$PROJECT_DIR$/serializacion/rescate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serializacion/serealizarObjetos.py" beforeDir="false" afterPath="$PROJECT_DIR$/serializacion/serealizarObjetos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serializacion/serializacion.py" beforeDir="false" afterPath="$PROJECT_DIR$/serializacion/serializacion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/valores/error.py" beforeDir="false" afterPath="$PROJECT_DIR$/valores/error.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,24 +30,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Calculo/basicos/basics.py">
+        <entry file="file://$PROJECT_DIR$/manejo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="320">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/curso/hola.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/use_modulos.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Metodos/cuadrados.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -64,12 +70,14 @@
         <option value="$PROJECT_DIR$/Calculo/basicos/basics.py" />
         <option value="$PROJECT_DIR$/Calculo/redondeo_pot/Redondeo.py" />
         <option value="$PROJECT_DIR$/use_modulos.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/manejo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1380" />
-    <option name="y" value="13" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="18" />
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
@@ -78,6 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,16 +94,10 @@
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -102,6 +105,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\headc\Desktop\Python\python\curso" />
       <recent name="C:\Users\headc\Desktop\Python\python\Calculo\basicos" />
       <recent name="C:\Users\headc\Desktop\Python\python\Calculo\redondeo_pot" />
     </key>
@@ -118,28 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.use_modulos">
-    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.manejo">
     <configuration name="herenciaSuper" type="PythonConfigurationType" factoryName="Python">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="polimorfismo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="manejo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,11 +152,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POO/polimorfismo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manejo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,6 +199,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modules/useFunction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="use_modulos (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/curso" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/curso/use_modulos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,10 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.manejo" />
+        <item itemvalue="Python.setup" />
+        <item itemvalue="Python.use_modulos (1)" />
         <item itemvalue="Python.use_modulos" />
         <item itemvalue="Python.useFunction" />
-        <item itemvalue="Python.hello" />
-        <item itemvalue="Python.polimorfismo" />
       </list>
     </recent_temporary>
   </component>
@@ -247,15 +273,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="18" width="1382" height="784" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14315937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16220239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2705249" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26881722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -348,13 +373,6 @@
     <entry file="file://$PROJECT_DIR$/Calculo/basicos/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calculo/basicos/basics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Calculo/calculos.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -369,15 +387,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Calculo/basicos/basics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/use_modulos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="140">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curso/use_modulos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manejo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curso/hola.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metodos/cuadrados.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
