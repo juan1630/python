@@ -1,4 +1,6 @@
 from Calculo.basicos.basics import *
+#Requerimos todas las funciones dentro de dicha clase
+
 from Calculo.redondeo_pot.redondeo import *
 
 potencia(4,6)

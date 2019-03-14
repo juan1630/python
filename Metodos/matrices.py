@@ -19,7 +19,7 @@ for i in range(len(matriz1)):
 for j in range(len(matriz1)):
     a=float( matriz1[j] )
     b=float( matriz2[j] )
-    res= a - b
+    res = a - b
     print("Resta: " +str(res))
 
 r1 = int(input("Numero de renglones de la matriz 1 "))
