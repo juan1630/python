@@ -44,3 +44,5 @@ print(uno)
 print(dia)
 print(mes)
 print(anio)
+
+# En las ultimas versiones del python si se puede usar el metodo index
