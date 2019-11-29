@@ -41,9 +41,29 @@
 # else:
 #     print("Correo no es valido")
 
+# el primer argumento de range es el inicio del rango 
+# el segundo es fin del rango 
+# el tercero es el incremento de cuanto en cuanto
 
-for i in range(5):
-    print("Hola")
+for i in range(5, 50, 3):
+   print(f"Valor de la variable: {i}")
+
+# la F signific que es una funcion de tipo F, que nos permite jugar con los formatos de valor diferente
 # crea un array de cinco elementos 
 # lo que hace que se imprima la palabra hola 5 veces
 
+#El tippo range nos da una lista aritmetica del que se le haya especificado
+
+
+# la funcion len nos devuelve la longitud de un string 
+valido =False
+email = input("Introduce tu email: ")
+
+for j in range(len(email)):
+    if email[j] == "@":
+        valido=True
+    
+if valido:
+    print("Email valido")
+else:
+    print("Email no es valido")
