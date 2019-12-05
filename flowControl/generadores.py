@@ -40,5 +40,19 @@ devuelvePares = pares(10)
 # print(devuelvePares)
 
 
-for i in devuelvePares:
-    print(i)
+print(next(devuelvePares))
+
+print("hay mas codigo")
+
+# for i in devuelvePares:
+#     print(i)
+
+
+print(next(devuelvePares))
+
+print("Màs codigo")
+
+
+print("Estado de suspencion, para ser màs eficiente ")
+
+print(next(devuelvePares))
