@@ -1,3 +1,4 @@
+operacion = ""
 def sumar (a,b):
     return a+b
 
@@ -16,22 +17,24 @@ def divide (a,b):
         print("No se puede dividir entre 0 ")
         return "Operacion erronea"
 
+#se captura la excepcion hecha, en  este caso se trata de la division de cero entre un numero
+# se imprime el mensaje 
 
-op1 = (int(input("Ingresa el primer numero: ")))
-op2 = (int(input("Ingresa el segundo numero: ")))
-operacion = str(input("Ingresa la operacion a realizar: "))
+# Se tiene que hacer una excepcion por cada uno de los futuros errores que llegaran a producirse en la ejecucion del programa
+op1 = (int(input('Ingresa el primer numero: ')))
+op2 = (int(input('Ingresa el segundo numero: ')))
+operacion = raw_input('Ingresa la operacion a realizar: ')
+# usar la funcion raw_input porque genereba un error al usar solo la funcion input
 
-print(suma)
-
-if operacion=="suma":
+if operacion == 'suma':
     print(sumar(op1, op2))
-elif operacion=="resta":
+elif operacion=='resta':
     print(restar(op1, op2))
-elif operacion=="multiplicacion":
+elif operacion=='multiplicacion':
     print(multiplicacion(op1, op2))
-elif operacion=="division":
+elif operacion=='division':
     print(divide(op1, op2))
 else:
-    print("Operaciones division, suma, resta, multiplicacion ")
+    print('Operaciones division, suma, resta, multiplicacion ')
 
 print("Fin de las operaciones ")
