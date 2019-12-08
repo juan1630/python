@@ -1,6 +1,8 @@
 
 def evaluaEdad (edad):
     if(edad<0):
+        # raise es una funcion que personaliza le mensaje que se le da al usuario
+        # despues de raise va el tio de excepcion en el que se clasifica 
         raise TypeError("Agrega una edad valida")
     if edad<20:
         return "Eres muy joven"
@@ -11,5 +13,5 @@ def evaluaEdad (edad):
     elif(edad<80):
         return "Cuidate..."
 
-print(evaluaEdad(-7))
+print(evaluaEdad(-15))
 print("Otra linea")

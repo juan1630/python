@@ -19,10 +19,16 @@ def divide (a,b):
 
 #se captura la excepcion hecha, en  este caso se trata de la division de cero entre un numero
 # se imprime el mensaje 
-
 # Se tiene que hacer una excepcion por cada uno de los futuros errores que llegaran a producirse en la ejecucion del programa
-op1 = (int(input('Ingresa el primer numero: ')))
-op2 = (int(input('Ingresa el segundo numero: ')))
+
+while True:
+    try:
+        op1 = (int(raw_input('Ingresa el primer numero: ')))
+        op2 = (int(raw_input('Ingresa el segundo numero: ')))
+        break
+    except ValueError:
+        print("Los valores introducidos no son correctos. Intentalo de nuevo ")
+
 operacion = raw_input('Ingresa la operacion a realizar: ')
 # usar la funcion raw_input porque genereba un error al usar solo la funcion input
 
