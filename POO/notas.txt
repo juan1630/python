@@ -1,0 +1,23 @@
+Nos permite re-utilizar el codigo de uan forma màs eficiente
+
+Los lenguajes orientados a procedimientos son los lenguajesantiguos 
+Los orientados a ojetos son los lenguajes actuales tales como java, javascript, python.
+
+La programaciòn orientada a objetos traslada los objetos de la vida real.
+
+Ventajas 
+
+Se puede dividir el programa, o modular el còdigo
+
+1.- Clase - Caracteristicas que se puede compartir con otras clases 
+2.- Intancia de una clase - Hacer uso de la clase 
+3.- Modularizaciòn - Es un conjunto de varias clases que fue dividido en varias clases, permite utilizarse en diferentes programas ademas
+    funciona de forma independiente 
+
+4.- Encapsulaciòn - Funciones independientes de las demas funciones, en otras palabras portegido de los demas programas que quieran hacer
+    de la misma funciòn.
+
+5.- Los metodos de acceso nos ayuda a conectar las clase pero solo realiza la tarea.
+6.- Nomeclatura del punto, nos ayuda a acceder a ciertos metodos o propiedades de una clase.
+7.- El self hace referencia a la instancia de la clase.
+9.- La encapsulacion no permite modificar las propiedades desde fuera de la clase.

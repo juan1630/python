@@ -1,23 +1,32 @@
 class Coche():
 
-    def __init__(self):
+# Definimos el nombre de la clase
 
+    # Constructor
+    def __init__(self):
+        # el constructor le proporsiona un estado inicial de la clase
+        # el constructor es un metodo especial que les da un valor inicial a las propieades de la clase
         #propiedades del coche = variables
         self.__largo=250
         self.__ancho=300
         self.__ruedas=4
         self.__marcha=False
         self.__color="Negro"
+        # encapsulamos las propiedades, poniendo los dos guiones bajos
         #creamos el constructor de la clase
         #solo se accede desde andetro de la clase  __
         #desde una clase hija _
+        # los guiones bajos se ponen en todo el programa
 
 #metodos = funciones
 #self es como el this
 #se encapsula la variable con __ de esta forma no se puede modifcar desde fuera de la clase
 
+    # declarmos el metodo arrancar 
     def arrancar(self,arrancamos):
+    # recibe un parametro 
         self.__marcha=arrancamos
+        # le asignamos el valor que pasa por parametro el booleano
 
         if(self.__marcha):
             chequeo=self.__chequeoInterno()
@@ -49,7 +58,7 @@ class Coche():
 
 
 micoche = Coche()
-micoche.__ruedas=5
+micoche.__ruedas=3
 print("El coche tiene ", micoche.__ruedas, " ruedas")
 print(micoche.arrancar(True))
 print(micoche.estado())
