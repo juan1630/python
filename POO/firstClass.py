@@ -51,7 +51,7 @@ class Coche():
         self.aceite="ok"
         self.puertas="carradas"
 
-        if(self.gasolina=="ok" and self.gasolina=="ok" and self.puertas=="carradas"):
+        if(self.gasolina=="ok" and self.aceite=="ok" and self.puertas=="carradas"):
             return True
         else:
             return False
