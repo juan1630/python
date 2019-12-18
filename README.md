@@ -27,4 +27,13 @@
 ### POO
 =======
 >>>>>>> 9307f9706ab765559c50eef040d6b5b1e10e8b7a
-
+- clases
+- instancia de una clase
+- propiedades
+- metodos 
+- propiedaes encapsuldas
+- metodos encapsulados
+- herenecia
+- sobre escritura de metodos
+- herencia simple y herenecia multiple
+- funcion super e isinstance
