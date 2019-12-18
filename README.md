@@ -13,6 +13,7 @@
 - and y or
 - Continue y pass
 - in  y on 
+<<<<<<< HEAD
 
 ### Excepciones 
 
@@ -24,4 +25,6 @@
 - alias para las excepciones 
 
 ### POO
+=======
+>>>>>>> 9307f9706ab765559c50eef040d6b5b1e10e8b7a
 

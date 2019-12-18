@@ -14,7 +14,7 @@ class Coche():
         self.__color="Negro"
         # encapsulamos las propiedades, poniendo los dos guiones bajos
         #creamos el constructor de la clase
-        #solo se accede desde andetro de la clase  __
+        #solo se accede desde adentro de la clase  __
         #desde una clase hija _
         # los guiones bajos se ponen en todo el programa
 
@@ -42,7 +42,7 @@ class Coche():
     def estado(self):
         return ("El coche tiene", self.__ruedas, "ruedas. Un ancho de ", self.__ancho, "y un largo de ", self.__largo)
 
-
+    # Encapuslamiento del metodo
     def __chequeoInterno(self):
 
         print("Realizando un chequeo interno del coche")
