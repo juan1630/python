@@ -24,6 +24,7 @@ class Empleado(Persona):
     def descripcion(self):
         super().description()
         print("Salario: ", self.salario, "Aniguead: ", self.antiguedad)
+        
 antonio=Empleado(1600,4, "Antonio", 32, "Polonia")
 print (antonio.description())
 #devuelve true si el objeto es instancia de la clase
