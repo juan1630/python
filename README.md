@@ -37,3 +37,9 @@
 - sobre escritura de metodos
 - herencia simple y herenecia multiple
 - funcion super e isinstance
+
+### Modulos y paquetes
+
+- Modulos
+- Paquetes se le agrega a la carpeta un archivo __init__.py
+- Subpaquetes
